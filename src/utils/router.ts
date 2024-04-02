@@ -1,1 +1,1 @@
-export const ROUTES = { HOME: '' } as const
+export const ROUTES = { HOME: 'ton-fan-front/' } as const
