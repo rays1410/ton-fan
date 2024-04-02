@@ -1,0 +1,23 @@
+.mainBlock {
+  color: rgb(173, 174, 175);
+  max-width: 100vw;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainStandard {
+  margin-top: 20%;
+}
+
+.mainShifted {
+  margin-top: 60%;
+  text-align: center;
+}
+
+.wallet {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
