@@ -14,8 +14,6 @@ declare global {
 
 function App() {
   const [firstRender, setFirstRender] = useState<boolean>(false);
-  const [isTg, setIsTg] = useState<boolean>(false);
-
   const [targetWallet, setTargetWallet] = useState<string>("");
   const [targetUserName, setTargerUserName] = useState<string>("");
 
@@ -30,7 +28,6 @@ function App() {
         WebAppSDK.ready();
         WebAppSDK.enableClosingConfirmation();
         WebAppSDK.expand();
-        setIsTg(true);
 
         bodyStyle.backgroundColor = "var(--tg-theme-bg-color)";
         bodyStyle.setProperty(
